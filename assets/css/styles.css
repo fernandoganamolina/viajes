@@ -142,6 +142,7 @@ header h1{
     }   
     .somos{
         padding: 30px;
+        display:none;
     }
     .somos .card{
         margin:20px 0;
