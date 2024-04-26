@@ -1,6 +1,7 @@
 main{
     margin:0;
     padding:0;
+    background-color: black;
 }
 header{
     background-color: rgba(255, 255, 255, 0.3);
@@ -40,6 +41,28 @@ header h1{
 .carousel-item{
     max-height: 100vh;
 }
+.somos{
+    padding: 50px;
+}
+.somos h2{
+    font-size: 2em;
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    margin: 50px 0;
+}
+.somos .card{
+    margin:10px;
+    padding: 0;
+    width: 31%;
+    background-color: black;
+}
+.somos .card-header,.card-footer{
+    background-color: #0DCAF0;
+}
+.somos .card-body p{
+    color:white;
+    padding:1px;
+}
 @media (max-width: 500px) {
     .navbar p{
         width: 10vw;
@@ -50,4 +73,12 @@ header h1{
         width: 40vw;
         margin:0;
     }   
+    .somos{
+        padding: 30px;
+    }
+    .somos .card{
+        margin:20px 0;
+        padding: 0;
+        width: 100vw;
+    }
 }
