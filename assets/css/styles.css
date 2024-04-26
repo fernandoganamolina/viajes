@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 main{
     margin:0;
     padding:0;
@@ -63,6 +66,52 @@ header h1{
     color:white;
     padding:1px;
 }
+.destaca{
+    justify-content: center;
+}
+.destaca h2{
+    font-size: 2em;
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    margin: 50px 0;
+}
+.destaca .card{
+    background-color: #0DCAF0;
+    margin:5px;
+    padding:0;
+    width: 23%;
+}
+.destaca .card-header{
+    margin:0;
+    padding:0;
+    /* max-height: 20vh; */
+}
+.destaca .card-body .tit{
+    color:white;
+    font-size: 1.4em;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+.destaca .card-body .txt{
+    color:white;
+    font-size: 1.2em;
+    font-family: "Cabin", sans-serif;
+    font-weight: 100;
+}
+.contacto{
+    margin:50px;
+}
+.contacto h2{
+    font-size: 2em;
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    margin: 50px 0;
+}
+.contacto p,label{
+    font-size: 1.2em;
+    font-family: "Cabin", sans-serif;
+    color:white;
+}
 @media (max-width: 500px) {
     .navbar p{
         width: 10vw;
@@ -79,6 +128,14 @@ header h1{
     .somos .card{
         margin:20px 0;
         padding: 0;
+        width: 100vw;
+    }
+    .destaca{
+        padding: 30px;
+    }
+    .destaca .card{
+        margin:20px;
+        padding:0;
         width: 100vw;
     }
 }
