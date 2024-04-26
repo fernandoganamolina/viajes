@@ -7,7 +7,7 @@ main{
     background-color: black;
 }
 header{
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 header h1{
     font-family: "Cabin", sans-serif;
@@ -15,7 +15,7 @@ header h1{
 .navbar{
     /* background-color: #000000; */
     padding: 10px 40px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
     /* background: none; */
     /* position: fixed; */
 }
@@ -68,6 +68,7 @@ header h1{
 }
 .destaca{
     justify-content: center;
+    padding: 50px;
 }
 .destaca h2{
     font-size: 2em;
@@ -84,7 +85,8 @@ header h1{
 .destaca .card-header{
     margin:0;
     padding:0;
-    /* max-height: 20vh; */
+    max-height: 26vh;
+    overflow: hidden;
 }
 .destaca .card-body .tit{
     color:white;
@@ -112,6 +114,22 @@ header h1{
     font-family: "Cabin", sans-serif;
     color:white;
 }
+.footer{
+    display:flex;
+    justify-content: space-between;
+    background-color: #0DCAF0;
+    padding:30px 100px;
+    color:white;
+}
+.footer h2{
+    font-family: "Cabin", sans-serif;
+}
+.footer .icons{
+    font-size: 1.5em;
+}
+.footer .icons i{
+    margin:0 5px;
+}
 @media (max-width: 500px) {
     .navbar p{
         width: 10vw;
@@ -137,5 +155,16 @@ header h1{
         margin:20px;
         padding:0;
         width: 100vw;
+    }
+    .destaca .card-header{
+        max-height:fit-content;
+        /* height:auto; */
+        overflow: auto;
+    }
+    .contacto{
+        margin:20px;
+    }
+    .footer{
+        padding:30px 10px;
     }
 }

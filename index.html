@@ -25,16 +25,16 @@
                     </button>
                     <div class="collapse navbar-collapse" id="menu">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a href="#">Inicio</a></li>
-                            <li class="nav-item"><a href="#">Quienes Somos</a></li>
-                            <li class="nav-item"><a href="#">Destacados</a></li>
-                            <li class="nav-item"><a href="#">Contacto</a></li>
+                            <li class="nav-item"><a href="#tag-inicio">Inicio</a></li>
+                            <li class="nav-item"><a href="#tag-somos">Quienes Somos</a></li>
+                            <li class="nav-item"><a href="#tag-destaca">Destacados</a></li>
+                            <li class="nav-item"><a href="#tag-contacto">Contacto</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
-        <section class="carrusel">
+        <section class="carrusel" id="tag-inicio">
             <div class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -50,7 +50,7 @@
               </div>
         </section>
         
-        <section class="somos row">
+        <section class="somos row" id="tag-somos">
             <h2 class="text-center text-white">QUIENES SOMOS</h2>
             <div class="card col-sm-4">
                 <div class="card-header text-white text-center">
@@ -78,7 +78,7 @@
             </div>
         </section>
 
-        <section class="destaca row">
+        <section class="destaca row" id="tag-destaca">
             <h2 class="text-center text-white">DESTACADOS</h2>
             <div class="card col-sm-3">
                 <div class="card-header text-white text-center">
@@ -117,7 +117,7 @@
                 </div>
             </div>
         </section>
-        <section class="contacto">
+        <section class="contacto" id="tag-contacto">
             <h2 class="text-center text-white">CONTACTO</h2>
             <form method="post">
                 <label>Nombre</label>
@@ -126,7 +126,17 @@
                 <input type="text" name="asunto" id="asunto" placeholder="Ingrese Asunto" class="form-control" required>
                 <label>Nombre</label>
                 <textarea name="mensaje" id="mensaje" class="form-control" style="height:15vh;resize:none" placeholder="Ingrese Mensaje" required></textarea>
+                <button class="btn btn-info text-white px-4 my-3">Enviar</button>
             </form>
+        </section>
+        <section class="footer">
+            <h2>VIAJES CHILE</h2>
+            <div class="icons">
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
         </section>
     </main>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
